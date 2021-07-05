@@ -86,8 +86,9 @@ module.exports.run = (message, args) => {
     else if (country_role) {
         user.roles.remove(country_role);
         message.reply(responses.country.removed);
-    } else {
-        const err_msg = responses.invite.cannotCreate + ' ' + parseString.formatVariables(
+    }
+    else {
+        const err_msg = responses.error.generic + ' ' + parseString.formatVariables(
             responses.error.tagStaff, []);
         message.channel.send(err_msg);
     }
