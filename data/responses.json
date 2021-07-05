@@ -1,0 +1,59 @@
+{
+  "error": {
+    "generic": "Something went wrong!",
+    "confused": "I'm confused, please try the `{prefix}help` command or ask the admins for help.",
+    "somethingWrong": "Something went wrong, please let the admins know.",
+    "noPermission": "wowowow you don't have permission to do that!\nYou probably made a mistake, try the `{prefix}help` command.",
+    "seehelp": "I don't understand. Type `{prefix}help {0}` to see how to use that command.",
+    "tagStaff": "{staff} please look into it."
+  },
+  "help": {
+    "noInfo": "I don't have any info about that. Try `{prefix}help`",
+    "invalidFormat": "please give me a year from 1 to 3, e.g. `{prefix}help cl 2`."
+  },
+  "course": {
+    "added": "I gave you the role{0} for **{1}**",
+    "removed": "I removed your role{0} for **{1}**",
+    "noMatches": "there are no matches for `{0}`.\nSee `{prefix}help courselist`.",
+    "twoMatches": "there are two matches for `{0}`.\nUse a full name or code instead:\n• `{1}` / `{2}`\n• `{3}` / `{4}`",
+    "multipleMatches": "there are multiple matches for `{0}`.\nUse a full name or code instead:\n{1}",
+    "tooManyMatches": "there were too many matches for `{0}`.\nTry using a course's name or code instead.",
+    "allCoursesAccessAdded": "Ok nerd. I gave you access to channels for all courses in the Bachelor.",
+    "allCoursesAccessRemoved": "you won't have access to all course channels anymore.",
+    "invalidFormat": "please use a course name, code or acronym. For example: `{prefix}c oop`,\nor see `{prefix}help course` or `{prefix}help course`.",
+    "invalidRemoveFormat": "please give me a course name, code or acronym. For example: `{prefix}c -r oop`,\nor see `{prefix}help course` or `{prefix}help courselist`."
+  },
+  "year": {
+    "added": "I gave you the role for **year {0}**.\nAs time goes on, you will automatically see channels for new courses.",
+    "removed": "I removed your role for **year {0}**.",
+    "invalidFormat": "please give me a year from 1 to 3, e.g. `{prefix}y 1`,\nor see `{prefix}help year`."
+  },
+  "variant": {
+    "added": "I gave you the **{0}** variant role.\nYou can now access channels for the {0} variant.",
+    "addedAll": "Ok nerd. I gave you access to all variant course channels.",
+    "removed": "I removed your role for **{0}** variant courses.",
+    "removedAll": "I removed your access to all variant course channels.",
+    "removedAllAccess": "I removed your role for accessing all variants. You might still have other variant roles left.",
+    "userHasNoVariant": "you don't have any specific variant role. You can choose one so others know what you're studying."
+  },
+  "honours": {
+    "accessGranted": "I gave you access the honours programme channel.",
+    "accessRemoved": "I removed your access to the honours programme channel."
+  },
+  "invite": {
+    "link": "here's a temporary invite link: {0}\nIt's limited to {1} uses, but I can make more links.",
+    "askedPolitely": "Since you asked nicely, it will last twice as long ({0}) with {1} uses.",
+    "cannotCreate": "I couldn't make an invite link!"
+  },
+  "country": {
+    "invalidCountry": "I don't know what country you mean by that.",
+    "invalidFormat": "please give me a country name or code,\nor see `{prefix}help country`.",
+    "assigned": "I gave you the country role for **{0}** {1}",
+    "removed": "I removed that country from your account.",
+    "removedAll": "I removed all your country roles."
+  },
+  "ta": {
+    "accessGranted": "I gave you the TA role. Nice to have another TA onboard!",
+    "accessRemoved": "I removed your TA role."
+  }
+}

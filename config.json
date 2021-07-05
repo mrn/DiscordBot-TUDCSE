@@ -1,0 +1,46 @@
+{
+	"prefix": "/",
+	"channels": [
+		"bot-commands",
+		"staff"
+	],
+    "globalCommands": [
+        "invite"
+    ],
+	"inviteChannelID": "756285737485336686",
+    "staffTag": "<@&570515879951859713>",
+    "defaultPermissions": [
+        "CHANGE_NICKNAME",
+        "VIEW_CHANNEL",
+        "SEND_MESSAGES",
+        "EMBED_LINKS",
+        "ATTACH_FILES",
+        "READ_MESSAGE_HISTORY",
+        "USE_EXTERNAL_EMOJIS",
+        "ADD_REACTIONS",
+        "CONNECT",
+        "SPEAK",
+        "USE_VAD"
+    ],
+    "reactionRoles": {
+        "years": {
+            "channelID": "756285737485336686",
+            "messageID": "756287697705762836",
+            "reactions": {
+                "1️⃣": "1",
+                "2️⃣": "2",
+                "3️⃣": "3"
+            }
+        },
+        "variants": {
+            "channelID": "756285737485336686",
+            "messageID": "756287751250378793",
+            "reactions": {
+                "🖼️": "Multimedia",
+                "📟": "Systems",
+                "🗃️": "Data"
+            }
+        }
+    },
+    "repoURL": "https://github.com/mrn/DiscordBot-TUDCSE"
+}

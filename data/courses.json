@@ -1,0 +1,249 @@
+{
+    "Year 1": {
+        "Quarter 1": {
+            "courses": [
+                {
+                    "name": "Object Oriented Programming",
+                    "code": "CSE1100",
+                    "aliases": ["oop"]
+                },
+                {
+                    "name": "Reasoning and Logic",
+                    "code": "CSE1300",
+                    "aliases": ["rl", "rnl", "ral", "r&l"]
+                },
+                {
+                    "name": "Computer Organisation",
+                    "code": "CSE1400",
+                    "aliases": ["co"]
+                }
+            ]
+        },
+        "Quarter 2": {
+            "courses": [
+                {
+                    "name": "Calculus",
+                    "code": "CSE1200",
+                    "aliases": ["calc", "cal"]
+                },
+                {
+                    "name": "Algorithms and Data Structures",
+                    "code": "CSE1305",
+                    "aliases": ["ads", "aads", "algos", "a&ds"]
+                },
+                {
+                    "name": "Web and Database Technology",
+                    "code": "CSE1500",
+                    "aliases": ["web and databases", "wdt", "wdb", "wadt", "w&dt", "wadbt", "w&dbt", "wad", "w&d", "wadb", "w&db", "web and db", "web and dbs", "web & db", "web & dbs", "web and db tech", "web & db tech", "web & database technology", "web & databases"],
+                    "modules": [
+                        {
+                            "name": "Web",
+                            "aliases": ["web"]
+                        },
+                        {
+                            "name": "Databases",
+                            "aliases": ["db", "dbt", "dbs", "dt", "database tech", "db tech"]
+                        }
+                    ]
+                }
+            ]
+        },
+        "Quarter 3": {
+            "courses": [
+                {
+                    "name": "OOP Project",
+                    "code": "CSE1105",
+                    "aliases": ["oopp"]
+                },
+                {
+                    "name": "Linear Algebra",
+                    "code": "CSE1205",
+                    "aliases": ["la", "linalg"]
+                },
+                {
+                    "name": "Information and Data Management",
+                    "code": "CSE1505",
+                    "aliases": ["idm", "iadm", "i&dm"]
+                }
+            ]
+        },
+        "Quarter 4": {
+            "courses": [
+                {
+                    "name": "Software Quality and Testing",
+                    "code": "CSE1110",
+                    "aliases": ["sqt", "sqat", "sq&t"]
+                },
+                {
+                    "name": "Probability Theory and Statistics",
+                    "code": "CSE1210",
+                    "aliases": ["pts", "stat", "ptas", "pt&s", "ps", "pas", "p&s", "probstat", "probstats", "stats", "ptsd"]
+                },
+                {
+                    "name": "Computer Networks",
+                    "code": "CSE1405",
+                    "aliases": ["cn"]
+                }
+            ]
+        }
+    },
+    "Year 2": {
+        "Quarter 1": {
+            "courses": [
+                {
+                    "name": "Computer Graphics",
+                    "code": "CSE2215",
+                    "aliases": ["cg"]
+                },
+                {
+                    "name": "Machine Learning",
+                    "code": "CSE2510",
+                    "aliases": ["ml"]
+                },
+                {
+                    "name": "Signal Processing",
+                    "code": "CSE2220",
+                    "aliases": ["sp", "sigproc"]
+                },
+                {
+                    "name": "Digital Systems",
+                    "code": "CSE2420",
+                    "aliases": ["ds", "digsys"]
+                },
+                {
+                    "name": "Bid Data Processing",
+                    "code": "CSE2520",
+                    "aliases": ["bdp", "bd", "big data"]
+                }
+            ]
+        },
+        "Quarter 2": {
+            "courses": [
+                {
+                    "name": "Software Engineering Methods",
+                    "code": "CSE2115",
+                    "aliases": ["sem"]
+                },
+                {
+                    "name": "Algorithm Design",
+                    "code": "CSE2310",
+                    "aliases": ["ad"]
+                },
+                {
+                    "name": "Image Processing",
+                    "code": "CSE2225",
+                    "aliases": ["ip"]
+                },
+                {
+                    "name": "Embedded Software",
+                    "code": "CSE2425",
+                    "aliases": ["es"]
+                },
+                {
+                    "name": "Data Mining",
+                    "code": "CSE2525",
+                    "aliases": ["dm"]
+                }
+            ]
+        },
+        "Quarter 3": {
+            "courses": [
+                {
+                    "name": "Concepts of Programming Languages",
+                    "code": "CSE2120",
+                    "aliases": ["cpl", "copl"]
+                },
+                {
+                    "name": "Automata, Computability and Complexity",
+                    "code": "CSE2315",
+                    "aliases": ["acc", "acac", "ac&c", "automata computability and complexity"]
+                },
+                {
+                    "name": "Multimedia Analysis",
+                    "code": "CSE2230",
+                    "aliases": ["ma", "mma"]
+                },
+                {
+                    "name": "Operating Systems",
+                    "code": "CSE2430",
+                    "aliases": ["os"]
+                },
+                {
+                    "name": "Computational Intelligence",
+                    "code": "CSE2530",
+                    "aliases": ["ci"]
+                }
+            ]
+        },
+        "Quarter 4": {
+            "courses": [
+                {
+                    "name": "Software Project",
+                    "code": "CSE2000",
+                    "aliases": ["sp", "sproj"]
+                }
+            ]
+        }
+    },
+    "Year 3": {
+        "Quarter 1": {
+            "courses": [
+                {
+                    "name": "Minor",
+                    "aliases": ["min"]
+                }
+            ]
+        },
+        "Quarter 2": {
+            "courses": [
+                {
+                    "name": "Minor",
+                    "aliases": ["min"]
+                }
+            ]
+        },
+        "Quarter 3": {
+            "courses": [
+                {
+                    "name": "Collaborative Artificial Intelligence",
+                    "code": "CSE3210",
+                    "aliases": ["cai"]
+                },
+                {
+                    "name": "Functional Programming",
+                    "code": "CSE3100",
+                    "aliases": ["fp"]
+                },
+                {
+                    "name": "Algorithms for NP-Hard Problems",
+                    "code": "CSE3300",
+                    "aliases": ["anphp", "afnphp"]
+                },
+                {
+                    "name": "Human Computer Interaction",
+                    "code": "CSE3500",
+                    "aliases": ["hci"]
+                },
+                {
+                    "name": "Introduction to Quantum Computer Science",
+                    "code": "CSE3130",
+                    "aliases": ["iqcs", "qcs", "itqcs"]
+                },
+                {
+                    "name": "Algebra and Cryptography",
+                    "code": "CSE3230",
+                    "aliases": ["ac", "aac", "a&c"]
+                }
+            ]
+        },
+        "Quarter 4": {
+            "courses": [
+                {
+                    "name": "Research Project",
+                    "code": "CSE3000",
+                    "aliases": ["rp"]
+                }
+            ]
+        }
+    }
+}
