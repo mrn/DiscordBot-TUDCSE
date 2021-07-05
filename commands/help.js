@@ -41,11 +41,12 @@ module.exports.run = (message, args) => {
         + '\n'
         + '\n> **`' + prefix + 'help <command name>`** or **`' + prefix + 'h <command name>`**  —  shows details and examples for the given command.'
         + '\n> '
-        + '\n> **`' + prefix + 'help courselist`** or **`' + prefix + 'help cl`**  —  lists all the available course names, codes and acronyms.',
+        + '\n> **`' + prefix + 'help courselist`** or **`' + prefix + 'help cl`**  —  lists all the available course names, codes and acronyms.'
+        + '\n> Giving it a number, e.g. **`' + prefix + 'help cl 2`**, will give you courses only for that year.',
         year:
         '**Year**'
         + '\n'
-        + '\n> **`' + prefix + 'year <number>**` or ' + prefix + 'y <number>`**  —  gives you a role for your year and access to channels for active courses.'
+        + '\n> **`' + prefix + 'year <number>`** or **`' + prefix + 'y <number>`**  —  gives you a role for your year and access to channels for active courses.'
         + '\n> As time goes on, you will automatically see channels for new courses.'
         + '\n> '
         + '\n> Option `-r`: removes the year from your account.'
@@ -61,6 +62,7 @@ module.exports.run = (message, args) => {
         + '\n> Option `-r`: removes the course from your account.'
         + '\n> '
         + '\n> **`' + prefix + 'help courselist`** or **`' + prefix + 'help cl`**  —  lists all the available course names, codes and acronyms.'
+        + '\n> Giving it a number, e.g. **`' + prefix + 'help cl 2`**, will give you courses only for that year.'
         + '\n> '
         + '\n> Examples:'
         + '\n> · `' + prefix + 'course oop`'
