@@ -1,3 +1,4 @@
+const config = require('../config.json');
 const parseString = require('../modules/parseString.js');
 const defaultPermissions = require('../config.json').defaultPermissions;
 const responses = require('../data/responses.json');
@@ -13,12 +14,14 @@ module.exports.run = (message, args) => {
     }
 
     let add_mode = true; // add or remove the given country?
+
     const user = message.member;
 
     // remove all country roles from user
     if (args.length === 1 && args[0] === '-r') {
         removeAllCountries(user);
         message.reply(responses.country.removedAll);
+        return;
     }
     // multiple args including -r
     else if (args.includes('-r')) {
@@ -30,6 +33,14 @@ module.exports.run = (message, args) => {
             message.reply(err_msg);
             return;
         }
+    }
+
+    // check if user has too many roles
+    if (add_mode
+        && message.member.roles.cache.size > config.maxRoles) {
+
+        message.reply(responses.error.roleLimit);
+        return;
     }
 
     let input = args.join(' ').toUpperCase();

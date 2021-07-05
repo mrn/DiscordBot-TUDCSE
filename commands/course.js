@@ -26,6 +26,7 @@ module.exports.run = (message, args) => {
             const err_msg = parseString.formatVariables(
                 responses.course.invalidRemoveFormat, []);
             message.reply(err_msg);
+            return;
         }
         add_mode = false;
         args = args.filter(a => a !== '-r');
@@ -36,6 +37,14 @@ module.exports.run = (message, args) => {
             message.reply(err_msg);
             return;
         }
+    }
+
+    // check if user has too many roles
+    if (add_mode
+        && message.member.roles.cache.size > config.maxRoles) {
+
+        message.reply(responses.error.roleLimit);
+        return;
     }
 
     let input = args.join(' ');

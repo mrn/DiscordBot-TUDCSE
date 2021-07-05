@@ -4,6 +4,7 @@
     "confused": "I'm confused, please try the `{prefix}help` command or ask the admins for help.",
     "somethingWrong": "Something went wrong, please let the admins know.",
     "noPermission": "wowowow you don't have permission to do that!\nYou probably made a mistake, try the `{prefix}help` command.",
+    "roleLimit": "you already have too many roles. Please remove some before adding more.",
     "seehelp": "I don't understand. Type `{prefix}help {0}` to see how to use that command.",
     "tagStaff": "{staff} please look into it."
   },

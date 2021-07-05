@@ -22,6 +22,7 @@
         "SPEAK",
         "USE_VAD"
     ],
+    "maxRoles": "10",
     "reactionRoles": {
         "years": {
             "channelID": "756285737485336686",
