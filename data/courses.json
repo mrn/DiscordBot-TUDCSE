@@ -10,7 +10,7 @@
                 {
                     "name": "Reasoning and Logic",
                     "code": "CSE1300",
-                    "aliases": ["rl", "rnl", "ral", "r&l"]
+                    "aliases": ["rl", "rnl", "ral", "r&l", "logic"]
                 },
                 {
                     "name": "Computer Organisation",
@@ -29,7 +29,7 @@
                 {
                     "name": "Algorithms and Data Structures",
                     "code": "CSE1305",
-                    "aliases": ["ads", "aads", "algos", "a&ds"]
+                    "aliases": ["ads", "algos", "aads", "a&ds"]
                 },
                 {
                     "name": "Web and Database Technology",
@@ -53,7 +53,7 @@
                 {
                     "name": "OOP Project",
                     "code": "CSE1105",
-                    "aliases": ["oopp"]
+                    "aliases": ["oopp", "object oriented programming project"]
                 },
                 {
                     "name": "Linear Algebra",
@@ -77,12 +77,12 @@
                 {
                     "name": "Probability Theory and Statistics",
                     "code": "CSE1210",
-                    "aliases": ["pts", "stat", "ptas", "pt&s", "ps", "pas", "p&s", "probstat", "probstats", "stats", "ptsd"]
+                    "aliases": ["pts", "stat", "statistics", "ptas", "pt&s", "ps", "pas", "p&s", "probstat", "probstats", "stats", "ptsd"]
                 },
                 {
                     "name": "Computer Networks",
                     "code": "CSE1405",
-                    "aliases": ["cn"]
+                    "aliases": ["cn", "networks", "net"]
                 }
             ]
         }
@@ -93,7 +93,7 @@
                 {
                     "name": "Computer Graphics",
                     "code": "CSE2215",
-                    "aliases": ["cg"]
+                    "aliases": ["cg", "graphics"]
                 },
                 {
                     "name": "Machine Learning",
@@ -103,7 +103,7 @@
                 {
                     "name": "Signal Processing",
                     "code": "CSE2220",
-                    "aliases": ["sp", "sigproc"]
+                    "aliases": ["sp", "sigproc", "signals"]
                 },
                 {
                     "name": "Digital Systems",
@@ -156,7 +156,7 @@
                 {
                     "name": "Automata, Computability and Complexity",
                     "code": "CSE2315",
-                    "aliases": ["acc", "acac", "ac&c", "automata computability and complexity"]
+                    "aliases": ["acc", "acac", "ac&c", "automata", "automata computability and complexity"]
                 },
                 {
                     "name": "Multimedia Analysis",
@@ -166,7 +166,7 @@
                 {
                     "name": "Operating Systems",
                     "code": "CSE2430",
-                    "aliases": ["os"]
+                    "aliases": ["os", "os's"]
                 },
                 {
                     "name": "Computational Intelligence",
@@ -207,7 +207,7 @@
                 {
                     "name": "Collaborative Artificial Intelligence",
                     "code": "CSE3210",
-                    "aliases": ["cai"]
+                    "aliases": ["cai", "collaborative ai"]
                 },
                 {
                     "name": "Functional Programming",
@@ -227,12 +227,12 @@
                 {
                     "name": "Introduction to Quantum Computer Science",
                     "code": "CSE3130",
-                    "aliases": ["iqcs", "qcs", "itqcs"]
+                    "aliases": ["iqcs", "qcs", "itqcs", "quantum cs", "quantum computer science"]
                 },
                 {
                     "name": "Algebra and Cryptography",
                     "code": "CSE3230",
-                    "aliases": ["ac", "aac", "a&c"]
+                    "aliases": ["ac", "aac", "a&c", "cryptography"]
                 }
             ]
         },
