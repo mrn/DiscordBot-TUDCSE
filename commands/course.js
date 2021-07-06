@@ -138,14 +138,18 @@ module.exports.run = (message, args) => {
                         match_is_course = true;
                         // store course names in one array and course codes in another,
                         // such that entries at the same index correspond to the same course
-                        matches.push(course_data.name);
-                        if (course_data.code) {
-                            matches_codes.push(course_data.code.toLowerCase());
+                        if (!matches.includes(course_data.name)) {
+                            matches.push(course_data.name);
+                            matches_courses.push(course_data.name);
+
+                            if (course_data.code) {
+                                matches_codes.push(course_data.code.toLowerCase());
+                            }
+                            else {
+                                matches_codes.push('');
+                            }
                         }
-                        else {
-                            matches_codes.push('');
-                        }
-                        matches_courses.push(course_data.name);
+
                     }
 
                     // if the course has modules, check if they match target
