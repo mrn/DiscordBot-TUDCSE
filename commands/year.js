@@ -30,9 +30,9 @@ module.exports.run = (message, args) => {
 
 async function addYearRole(member, year) {
     // remove lower year roles
-    // for (y = 1; y < year; y++) {
-    //     removeYearRole(member, y);
-    // }
+    for (let y = 1; y < year; y++) {
+        removeYearRole(member, y);
+    }
 
     // find year role
     let year_role = await member.guild.roles.cache.find(role => role.name.toLowerCase() === 'year ' + year);
