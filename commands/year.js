@@ -29,11 +29,6 @@ module.exports.run = (message, args) => {
 };
 
 async function addYearRole(member, year) {
-    // remove lower year roles
-    for (let y = 1; y < year; y++) {
-        removeYearRole(member, y);
-    }
-
     // find year role
     let year_role = await member.guild.roles.cache.find(role => role.name.toLowerCase() === 'year ' + year);
     // if the selected year role exists, assign it to the user
@@ -49,6 +44,11 @@ async function addYearRole(member, year) {
         });
 
         member.roles.add(year_role);
+    }
+
+    // remove lower year roles
+    for (let y = 1; y < year; y++) {
+        removeYearRole(member, y);
     }
 }
 module.exports.addYearRole = addYearRole;
