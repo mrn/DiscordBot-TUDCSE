@@ -25,7 +25,7 @@
     "invalidRemoveFormat": "please give me a course name, code or acronym. For example: `{prefix}c -r oop`,\nor see `{prefix}help course` or `{prefix}help courselist`."
   },
   "year": {
-    "added": "I gave you the role for **year {0}**.\nAs time goes on, you will automatically see channels for new courses.",
+    "added": "I gave you the role for **year {0}**.",
     "removed": "I removed your role for **year {0}**.",
     "invalidFormat": "please give me a year from 1 to 3, e.g. `{prefix}y 1`,\nor see `{prefix}help year`."
   },

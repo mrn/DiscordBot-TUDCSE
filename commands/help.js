@@ -46,8 +46,7 @@ module.exports.run = (message, args) => {
         year:
         '**Year**'
         + '\n'
-        + '\n> **`' + prefix + 'year <number>`** or **`' + prefix + 'y <number>`**  —  gives you a role for your year and access to channels for active courses.'
-        + '\n> As time goes on, you will automatically see channels for new courses.'
+        + '\n> **`' + prefix + 'year <number>`** or **`' + prefix + 'y <number>`**  —  gives you a role for your year and access to channels for courses in that year.'
         + '\n> '
         + '\n> Option `-r`: removes the year from your account.'
         + '\n> '
