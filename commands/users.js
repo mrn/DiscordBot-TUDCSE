@@ -28,7 +28,6 @@ module.exports.run = async (message, args) => {
     const users_with_role = [];
     selected_role.members.forEach(user => {
         users_with_role.push(user.user.tag);
-        console.log(user);
     });
     users_with_role.sort();
 
