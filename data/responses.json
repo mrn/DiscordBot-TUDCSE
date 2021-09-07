@@ -56,5 +56,11 @@
   "ta": {
     "accessGranted": "I gave you the TA role. Nice to have another TA onboard!",
     "accessRemoved": "I removed your TA role."
+  },
+  "users" : {
+    "doNotTag": "Don't tag a role, many users get pinged! Write the name in plain text.",
+    "invalidRole": "I can't find a role with that name.",
+    "noUser": "No one has the role `{0}`.",
+    "list": "The following members have the role `{0}`:\n`{1}`"
   }
 }
