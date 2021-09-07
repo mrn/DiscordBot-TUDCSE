@@ -27,6 +27,9 @@ module.exports.run = (message, args) => {
         + '\n> '
         + '\n> **`' + prefix + 'ta`**  —  get the TA role'
         + '\n> '
+        + '\n> **`' + prefix + 'users <role name>`**  —  show users who have the given roles'
+        + '\n> \tAliases: `' + prefix + 'u`'
+        + '\n> '
         + '\n> **`' + prefix + 'help`**  —  show this message'
         + '\n> \tAliases: `' + prefix + 'h`, `' + prefix + '?`'
         + '\n'
@@ -94,11 +97,13 @@ module.exports.run = (message, args) => {
         + '\n> · `' + prefix + 'v -r`',
         honours:
         '**Honours**'
+        + '\n'
         + '\n> **`' + prefix + 'honours`**  —  gives you access to the channel for the honours programme.'
         + '\n> '
         + '\n> Option `-r`: removes access.',
         country:
         '**Country**'
+        + '\n'
         + '\n> **`' + prefix + 'country <name|code>`**  —  gives you a role for the chosen country.'
         + '\n> '
         + '\n> Option `-r`: removes the specified country from your account, or all countries if none is specified.'
@@ -119,6 +124,18 @@ module.exports.run = (message, args) => {
         + '\n> **`' + prefix + 'ta`**  —  gives you a TA role to let others know you\'re a TA and to let you access the TA channel.'
         + '\n> '
         + '\n> Option `-r`: removes the TA role.',
+        users:
+        '**Users**'
+        + '\n'
+        + '\n> **`' + prefix + 'users <role name>`**  —  show users who have the given roles.'
+        + '\n> '
+        + '\n> NOTE: Do not use role tags! Use role names in plain text.'
+        + '\n> '
+        + '\n> Examples:'
+        + '\n> · `' + prefix + 'users Netherlands`'
+        + '\n> · `' + prefix + 'u Staff`'
+        + '\n> · `' + prefix + 'u Year 2`'
+        + '\n> · `' + prefix + 'u Linear Algebra`',
     };
 
     const misc = {
@@ -128,7 +145,6 @@ module.exports.run = (message, args) => {
         + '\n> <' + config.repoURL + '>',
     };
 
-
     if (!args[0]) {
         message.channel.send(pre + '\n\n' + summary + '\n\n' + misc['contribute']);
         return;
@@ -137,7 +153,7 @@ module.exports.run = (message, args) => {
     const option = args[0].toLowerCase();
     if (option === 'all') {
         const message1 = [commandsHelp['help'], commandsHelp['year'], commandsHelp['course'], commandsHelp['variant']];
-        const message2 = [commandsHelp['honours'], commandsHelp['country'], commandsHelp['invite'], commandsHelp['ta'], misc['contribute']];
+        const message2 = [commandsHelp['honours'], commandsHelp['country'], commandsHelp['invite'], commandsHelp['ta'], commandsHelp['users'], misc['contribute']];
         message.channel.send(pre + '\n\n' + message1.join('\n\n'));
         message.channel.send('\u200B\n' + message2.join('\n\n'));
     }
