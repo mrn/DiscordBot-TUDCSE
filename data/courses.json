@@ -111,7 +111,7 @@
                     "aliases": ["ds", "digsys"]
                 },
                 {
-                    "name": "Bid Data Processing",
+                    "name": "Big Data Processing",
                     "code": "CSE2520",
                     "aliases": ["bdp", "bd", "big data"]
                 }
