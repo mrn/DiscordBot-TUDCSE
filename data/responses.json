@@ -42,8 +42,8 @@
     "accessRemoved": "I removed your access to the honours programme channel."
   },
   "invite": {
-    "link": "here's a temporary invite link: {0}\nIt's limited to {1} uses, but I can make more links.",
-    "askedPolitely": "Since you asked nicely, it will last twice as long ({0}) with {1} uses.",
+    "link": "here's a temporary invite link: {0}",
+    "askedPolitely": "Since you asked nicely, it will last twice as long ({0}).",
     "cannotCreate": "I couldn't make an invite link!"
   },
   "country": {

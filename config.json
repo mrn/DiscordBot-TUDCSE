@@ -5,7 +5,11 @@
 		"staff"
 	],
     "globalCommands": [
-        "invite"
+        "invite",
+        "i",
+        "inv",
+        "link",
+        "invitelink"
     ],
 	"inviteChannelID": "756285737485336686",
     "staffTag": "<@&570515879951859713>",
