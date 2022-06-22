@@ -37,6 +37,10 @@
     "removedAllAccess": "I removed your role for accessing all variants. You might still have other variant roles left.",
     "userHasNoVariant": "you don't have any specific variant role. You can choose one so others know what you're studying."
   },
+  "graduate": {
+    "added": "I gave you the BSc Graduate role.",
+    "removed": "I removed your role for BSc Graduate."
+  },
   "honours": {
     "accessGranted": "I gave you access the honours programme channel.",
     "accessRemoved": "I removed your access to the honours programme channel."
