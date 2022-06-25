@@ -25,6 +25,9 @@ module.exports.run = (message, args) => {
         + '\n> **`' + prefix + 'invite`**  —  get a temporary invite link to the server'
         + '\n> \tAliases: `' + prefix + 'i`, `' + prefix + 'link`'
         + '\n> '
+        + '\n> **`' + prefix + 'graduate`** — get the graduate role'
+        + '\n> \tAlias: `' + prefix + 'grad`'
+        + '\n> '
         + '\n> **`' + prefix + 'ta`**  —  get the TA role'
         + '\n> '
         + '\n> **`' + prefix + 'users <role name>`**  —  show users who have the given roles'
@@ -124,6 +127,12 @@ module.exports.run = (message, args) => {
         + '\n> **`' + prefix + 'ta`**  —  gives you a TA role to let others know you\'re a TA and to let you access the TA channel.'
         + '\n> '
         + '\n> Option `-r`: removes the TA role.',
+        graduate:
+        '**Graduate**'
+        + '\n'
+        + '\n> **`' + prefix + 'graduate`** or **`' + prefix + 'grad`**  —  gives you a graduate role to let others know that you did it, you got your BSc.'
+        + '\n> '
+        + '\n> Option `-r`: removes the graduate role.',
         users:
         '**Users**'
         + '\n'
