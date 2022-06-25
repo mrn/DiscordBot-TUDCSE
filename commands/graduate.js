@@ -41,6 +41,6 @@ module.exports.run = async (message, args) => {
 };
 
 module.exports.config = {
-    name: 'bsc graduate',
-    aliases: ['graduate', 'grad'],
+    name: 'graduate',
+    aliases: ['grad'],
 };
