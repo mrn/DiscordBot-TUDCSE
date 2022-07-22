@@ -33,3 +33,16 @@ To run the bot:
 For a list of commands, in Discord type:
 
 > /help
+
+### Docker
+
+- Deployment
+  ```sh
+  docker run --name discord-bot -d -e token="<TOKEN>" antoniosbarotsis/discord-bot
+  ```
+
+- For local Development
+  ```sh
+  docker build -t discord-bot .
+  docker run --name discord-bot -d -e token="<TOKEN>" discord-bot
+  ```
